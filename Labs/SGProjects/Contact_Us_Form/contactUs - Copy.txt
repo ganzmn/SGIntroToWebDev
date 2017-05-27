@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    </head>
+<body title="Contact Us" align="left">
+    <form style="margin-left:40px" action="fakePage.html" method= "post">
+    First Name:&nbsp;&nbsp; <input type="text" name="firstName" /><br/><br/>
+    Last Name:&nbsp;&nbsp;&nbsp; <input type="text" name="lastName" /><br/><br/>
+    Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="email" /><br/><br/>
+    Type of License: <input type="radio" name="licensetype" value="Business" checked/>Business
+        <input type="radio" name="licensetype" value="Personal" />Personal <br><br>
+    Reason: <select name="Reason">
+        <option value="Select a Reason">Select a Reason</option>
+        <option value="Software Support">Software Support</option>
+        <option value="Hardware Support">Hardware Support</option>
+        <option value="Information Request">Information Request</option></select><br><br>
+    Additional Information:<br> <textarea name="Additional Information" rows="6" cols="35"></textarea><br><br>
+    <input type="checkbox" name="readterms" value="I have read terms"> I have read the terms of service.<br><br>
+    <input type="submit" value="Send Request"
+    </form>
+</body>

@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        h2 {
+            text-shadow: 2px 2px coral;
+        }
+        h1 {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: brown;            
+        }
+        table {
+            border-style:groove;
+            border-color:coral;
+            border-width:5px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="sampleStyles.css">
     <title>The Color Before the Sun</title>
     </head>
     <body>
-    <div align="middle">
+    <div align="center">
         <img src="Images/The_Color_Before_the_Sun_album_cover.jpg" alt="album image">
         <h1>The Color Before the Sun</h1>
         <h2><a href="http://www.coheedandcambria.com/">Coheed and Cambria</a></h2>
-        <P>Released: October 16, 2015</P>
+        <P style="color:brown;font-weight:bold;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Released: October 16, 2015</P>
     </div>
 <hr>
-    <h2 align=middle>Band Members and Producers</h2>
+    <h2 align=left>Band Members and Producers</h2>
         <ul>
             <li>Claudio Sanchez - vocals, guitar</li>
-            <li>Travis Stever – guitar, backing vocals</li>
-            <li>Josh Eppard – drums, percussion, backing vocals</li>
-            <li>Zach Cooper – bass, backing vocals</li>
+            <li>Travis Stever - guitar, backing vocals</li>
+            <li>Josh Eppard - drums, percussion, backing vocals</li>
+            <li>Zach Cooper - bass, backing vocals</li>
             <li>Jay Joyce - Producer</li>
         </ul>
-        <h2 align="middle">Tracks</h2>
-    <div align="middle">
-        <table width=75% border="1">
+        <h2 align="center">Tracks</h2>
+    <div align="center">
+        <table width=75% border="1px">
         <tr bgcolor=#DCDCDC>
             <th>Track #</th>
             <th>Track Title</th>
@@ -79,5 +94,6 @@
         </tr>              
         </table>
     </div>
+    <h4>Here is a neat line of text to utilize external style sheets</h4>
     </body>
 </html>
