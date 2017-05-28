@@ -11,6 +11,12 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 12pt;
     }
+    .bg{
+        background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(lightgreen), to(lightblue));
+        background-image: -webkit-linear-gradient(top, lightgreen, lightblue);
+        background-image: -moz-linear-gradient(top, lightgreen, lightblue);
+        background-image: linear-gradient(to bottom, lightgreen, lightblue);
+    }
     </style>
     <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
     <title>JG Faves Bar &amp; Grill</title>
@@ -23,8 +29,8 @@
         <b><a href="Rest_Menu.html">Menu</a></b>
         &nbsp;&nbsp;&nbsp;
         <b><a href="Rest_Contact_Us.html">Contact Us</a></b><br><br>
-        <hr><br>
-            <div align="center">
+        <hr>
+            <div class=bg align="center">
                 <table cellpadding="20" width="90%">
                     <tr>
                     <td width=33% align="center"><h3>Jakes Tacos</h3>
@@ -43,7 +49,8 @@
                         <br>It's a bowl of Cap'n Crunch Berries, enjoy!<br>$1.50</td>    
                     </tr>
                 </table>
-                <br><hr><br>
+            </div>    
+            <div align=center><hr><br>
                 <address>1234 Main Street, Blaine, MN, 55449</address>
                 <p><i>Phone: (123) 456-7890</i></p>
             </div> 
