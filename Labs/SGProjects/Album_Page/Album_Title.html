@@ -2,6 +2,22 @@
 <html>
 <head>
     <style type="text/css">
+        a {
+            text-decoration: none;
+        }
+        a:link {
+            text-decoration: none;
+        }
+        a:visited {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            background-color: lime;
+        }
+        a:active {
+            text-decoration: none;
+        }
         h2 {
             text-shadow: 2px 2px lightgray;
             font-family: palatino;
@@ -30,7 +46,14 @@
             font-size: 16pt;
         }
         td{
+            font-style: italic;
             font-size: 14pt;
+        }
+        tbody tr:nth-child(even) {
+            background-color: lightblue;    
+        }
+        tbody tr:nth-child(odd) {
+            background-color: whitesmoke;    
         }
     </style>
     <link rel="stylesheet" type="text/css" href="sampleStyles.css">
