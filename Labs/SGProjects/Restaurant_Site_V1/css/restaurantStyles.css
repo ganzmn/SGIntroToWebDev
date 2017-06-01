@@ -4,6 +4,11 @@ h1{
     text-align: center;
     color: darkblue;
 }
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24pt;
+    text-align: center;
+}
 body{
     background-color: white;   
 }
