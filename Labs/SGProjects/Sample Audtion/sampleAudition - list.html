@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/JavaScript" src="sampleAudition - table.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+    <h1>Even number return system</h1>
+    <form name="numReturn" onsubmit="return validateItems();"
+        class="form-inline">
+            <div class="form-group">
+                <label for="startNum">Starting Number</label>
+                <input type="number" class="form-control" id="startNum">
+            </div><br><br>
+            <div class="form-group">
+                <label for="endNum">Ending Number</label>
+                <input type="number" class="form-control" id="endNum">
+            </div><br><br>
+            <div class="form-group">
+                <label for="stepNum">Step Number</label>
+                <input type="number" class="form-control" id="stepNum">
+            </div><br><br>
+            <button type="submit" id="submitButton" class="btn btn-default">Display Evens</button>
+    </form>
+    <div class = "container"><br>
+        <h4><span id="words"></span></h4><br>
+        <span id="results"></span>
+    </div>
+</div>
+</body>
+</html>
